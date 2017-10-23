@@ -1,0 +1,4 @@
+include 'configstore-service'
+include 'person-service'
+include 'prism-gateway'
+rootProject.name = 'spectrum-root'
