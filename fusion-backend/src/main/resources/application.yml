@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: fusionbackend
+
+server:
+  port: 8100
+  
+persons-service:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8091,localhost:8092,localhost:8093
+    ServerListRefreshInterval: 15000

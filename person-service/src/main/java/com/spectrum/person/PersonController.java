@@ -16,4 +16,10 @@ public class PersonController {
         persons.add("Person2");
         return persons;
     }
+    
+	@RequestMapping(value = "/")
+	public String home() {
+		return "Ping!";
+	}
+
 }
