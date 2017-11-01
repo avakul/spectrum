@@ -57,4 +57,11 @@ public class UserGroup {
 		this.status = status;
 	}
 
+	public UserGroup(String name, String createdDateTime, String status) {
+		super();
+		this.name = name;
+		this.createdDateTime = createdDateTime;
+		this.status = status;
+	}
+
 }
