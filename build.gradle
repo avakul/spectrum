@@ -24,4 +24,8 @@ subprojects {
      repositories {
         mavenCentral()
     }
+	dependencies {
+           runtime files(org.gradle.internal.jvm.Jvm.current().toolsJar)
+	}
+
 }
