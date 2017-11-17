@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: person
+server:
+  port: 8091
+person:
+  datasource:
+    url: jdbc:sqlserver://localhost;instance=SQLEXPRESS;databaseName\=JavaPlayGround;integratedSecurity=true;
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
